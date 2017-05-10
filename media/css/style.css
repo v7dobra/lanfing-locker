@@ -1,0 +1,37 @@
+#main-page-wrapper {
+	height: 100%;
+	background-color: #0b0b0b;
+	padding: 2em 0;
+
+.site-content-container {
+	height: 100%;
+	width: 1200px;
+	margin: 0 auto;
+	background: #3d9970;
+
+.grid-system {
+	width: 100%;
+	margin-bottom: 4%;
+
+.row {
+	border-radius: 5px;
+
+	.top-logo{
+	     background-color: #00a0d2;
+	     height: 150px;
+	     width: 100%;
+
+     }
+.main-screen{
+	background-color: #8A987E;
+	height: 1000px;
+	width: 100%;
+}
+
+}
+
+}
+
+}
+
+}
