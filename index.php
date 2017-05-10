@@ -1,89 +1,54 @@
 <!doctype html>
 <html lang="">
 <head>
-	<link type="text/css" href="/media/css/style.css" rel="stylesheet">
-
-	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
-	<!-- bxSlider Javascript file -->
-	<script src="lib/jquery.bxslider.min.js"></script>
-	<!-- bxSlider CSS file -->
-	<link href="lib/jquery.bxslider.css" rel="stylesheet"/>
-
-
 	<meta charset="UTF-8">
 	<meta name="viewport"
 	      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+	      integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
+	      integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+	<!-- Latest compiled and minified JavaScript -->
+
+	<script
+			src="https://code.jquery.com/jquery-3.2.1.min.js"
+			integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+			crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+	        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+	        crossorigin="anonymous"></script>
+	<link type="text/css" href="/media/css/style.css" rel="stylesheet">
+
 	<title>AutoLocker</title>
 	<style>
-		.top-logo{
-			background-color: #00a0d2;
-			height: 80px;
-			width: 100%;
-
-		}
-		.main-screen{
-			background-color: #8A987E;
-			height: 800px;
-			width: 100%;
-			}
-		.statistics{
-			background-color: #C1780F;
-			height: 800px;
-			width: 100%;
-
-		}
-
-		.description-block{
-			background-color: #C1780F;
-			height: 800px;
-			width: 100%;
-
-		}
-		.advantage-block{
-			background-color: #C1780F;
-			height: 800px;
-			width: 100%;
-
-		}
-
-		.product-block{
-			background-color: #C1780F;
-			height: 800px;
-			width: 100%;
-
-		}
-		.reviews-block{
-			background-color: #C1780F;
-			height: 800px;
-			width: 100%;
-
-		}
-		.affilate-program{
-			background-color: #C1780F;
-			height: 400px;
-			width: 100%;
-
-		}
-
-
-
-
-
 
 	</style>
 
 </head>
 <body>
+<?php  ?>
+
+
+<div class="hidden">
+	<div id="form-wrapper">
+		<?php include "templates/forms/contact.php" ?>
+	</div>
+</div>
 
 
 <div class="main-wrapper" id="main-page-wrapper">
 	<div class="site-content-container">
 		<div class="row grid-system">
+
 			<div class="inner-box grid-system top-logo">
-
 			</div>
-
+			<ul>
+				<li><a href="#contact-form">Contact us</a></li>
+			</ul>
 		</div>
 
 		<div class="row grid-system">
@@ -100,8 +65,6 @@
 		</div>
 		<div class="row grid-system">
 			<div class="inner-box grid-system description-block">
-
-
 			</div>
 		</div>
 		<div class="row grid-system">
@@ -114,8 +77,6 @@
 
 		<div class="row grid-system">
 			<div class="inner-box grid-system product-block">
-
-
 			</div>
 		</div>
 
@@ -139,11 +100,7 @@
 			</div>
 
 		</div>
-
-
 	</div>
 </div>
-
-
 </body>
 </html>
